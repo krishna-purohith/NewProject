@@ -1,11 +1,10 @@
+import ListGroup from "./components/ListGroup";
 import Message from "./Message";
 
 function App() {
-  const name = "";
-  if (name) return <h1>name</h1>;
   return (
     <div>
-      <Message />
+      <ListGroup />
     </div>
   );
 }
