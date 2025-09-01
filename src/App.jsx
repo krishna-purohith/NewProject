@@ -1,9 +1,8 @@
 import ListGroup from "./components/ListGroup";
-import Message from "./Message";
 
 function App() {
   return (
-    <div>
+    <div className="min-h-screen p-6">
       <ListGroup />
     </div>
   );
